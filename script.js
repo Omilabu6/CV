@@ -113,3 +113,11 @@ shapes.forEach((shape, index) => {
         }, 5000); // Extended to 5 seconds
     });
 });
+
+
+const menuebutton = document.getElementById ('menu-btn');
+const Navlinks = document.getElementById ('nav-links');
+
+menuebutton.addEventListener  ('click' , ()=>{
+ Navlinks.classList.toggle('show');
+})
